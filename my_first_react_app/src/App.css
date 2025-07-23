@@ -1,2 +1,62 @@
-.App {
-  
+body {
+    font-family: Arial,sans-serif;
+    background-color: lightgrey;
+    padding: 20px;
+}
+h2{
+    text-align: center;
+    color: darkblue;
+}
+p{
+    font-size: 16px;
+    line-height: 1.5;
+    color: black;
+}
+a{
+    color: blue;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
+ol,ul{
+    margin-left: 20px;
+    color: darkslategray;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: white;
+}
+td{
+    background-color: lightyellow;
+    color: black;
+}
+th,td{
+    border: 1px solid gray;
+    padding: 8px;
+}
+form{
+    background-color: white;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+fieldset{
+    border: 1px;
+    padding: 10px;
+}
+input,textarea,select{
+    margin-top: 6px;
+    padding: 6px;
+    width: 100%;
+}
+input[type="submit"]{
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
